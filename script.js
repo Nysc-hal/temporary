@@ -14,7 +14,7 @@ noBtn.addEventListener("mouseover", () => {
   noBtn.style.top = `${newY}px`;
 });
 
-// yes button functionality    
+// yes button functionality  
 
 yesBtn.addEventListener("click", () => {
   questionContainer.style.display = "none";
@@ -28,4 +28,5 @@ yesBtn.addEventListener("click", () => {
     gifResult.play();
   }, 3000);
 }); 
+
 
